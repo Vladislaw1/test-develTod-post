@@ -1,0 +1,32 @@
+.postListItem {
+    width: 300px;
+    text-align: center;
+    border: 1px solid black;
+    background: grey;
+    color: white;
+    position: relative;
+}
+
+.postListItem:hover {
+    box-shadow: 7px 5px 3px grey;
+}
+
+.postListItem:not(:last-child) {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.btnDeletePost {
+    padding: 5px;
+    background: transparent;
+    position: absolute;
+    border: 1px solid white;
+    right: 10px;
+    top: 10px;
+}
+.btnDeletePost:hover{
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+    background: transparent;
+}

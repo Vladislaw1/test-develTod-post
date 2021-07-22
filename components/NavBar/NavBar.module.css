@@ -1,0 +1,27 @@
+.navigation{
+    text-align: center;
+    background: silver;
+    padding: 15px 0;
+}
+.navList{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.navListItem{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.navListItemLink{
+    display: inline-block;
+    padding: 10px;
+}
+.navListItem:hover{
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+}
+.navListItem:not(:last-child){
+    margin-right: 20px;
+}

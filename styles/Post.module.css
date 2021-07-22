@@ -1,0 +1,31 @@
+.post{
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    border: 2px solid black;
+    box-shadow: 7px 5px 3px saddlebrown;
+}
+.caption{
+    margin: 0 0 20px 0;
+    font-size: 20px;
+}
+.body{
+    margin: 0 0 20px 0;
+    font-size: 16px;
+}
+.btnShwComm{
+    border: 1px solid transparent;
+    color: white;
+    padding: 10px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 5px;
+}
+.btnShwComm:hover{
+    border: 1px solid black;
+    color: black;
+    padding: 10px;
+    background: wheat;
+    cursor: pointer;
+    border-radius: 5px;
+}

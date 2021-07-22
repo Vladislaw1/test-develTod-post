@@ -1,0 +1,39 @@
+{
+  "name": "test-posts",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://Vladislaw1.gihub.io/test-develTod-post",
+  "scripts": {
+    "deploy":".next-deploy",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.6.1",
+    "@types/react-redux": "^7.1.18",
+    "axios": "^0.21.1",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "next": "11.0.1",
+    "next-redux-wrapper": "^7.0.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.14",
+    "@typescript-eslint/eslint-plugin": "^4.28.4",
+    "@typescript-eslint/parser": "^4.28.4",
+    "eslint": "^7.31.0",
+    "eslint-config-next": "11.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "next-deploy": "^1.2.4",
+    "prettier": "^2.3.2",
+    "typescript": "4.3.5"
+  }
+}

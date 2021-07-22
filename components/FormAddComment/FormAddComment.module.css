@@ -1,0 +1,25 @@
+.formAddComment{
+    width: fit-content;
+    margin: 20px auto;
+}
+.btnAddComment{
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background: rgba(49, 39, 39, 0.32);
+}
+.btnAddComment:hover{
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: transparent;
+    cursor: pointer;
+}
+.textarea{
+    width: 260px;
+    height: 100px;
+    resize: none;
+}
