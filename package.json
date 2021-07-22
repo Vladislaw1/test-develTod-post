@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://Vladislaw1.gihub.io/test-develTod-post",
   "scripts": {
-    "deploy":".next-deploy",
+    "deploy":"next-deploy",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
